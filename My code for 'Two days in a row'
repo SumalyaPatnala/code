@@ -1,0 +1,21 @@
+def menu_is_boring(meals):
+    """Given a list of meals served over some period of time, return True if the
+    same meal has ever been served two days in a row, and False otherwise.
+    """
+    count=0
+    firstDay=''
+    secondDay=''
+    for i in range(0, len(meals)-1):
+        firstDay=meals[i]
+        for j in range(i+1,i+2):
+            secondDay=meals[j]
+            if firstDay == secondDay:
+                return True
+            
+    
+
+
+    return False
+
+# Check your answer
+q3.check()
