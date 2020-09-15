@@ -1,2 +1,2 @@
 # code
-Compilation of Python programming codes
+Compilation of Python Data Science and Machine Learning codes
